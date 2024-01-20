@@ -17,7 +17,7 @@
         method: "POST",
         url: "https://detect.roboflow.com/fruit-detection-deqvb/1",
         params: {
-          api_key: "kFFRpRYOwJngSCHvwvdf",
+          api_key: "YOUR_API_KEY",
           confidence: 40,
           overlap: 30,
           format: "json",
@@ -30,7 +30,11 @@
     `/>`;
 </script>
 
-<div class="bg-white px-6 py-32 lg:px-8">
+<svelte:head>
+  <title>Code for Fruit Detection</title>
+</svelte:head>
+
+<div class="bg-white px-6 py-20 lg:px-8">
   <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
     <p class="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
     <h1

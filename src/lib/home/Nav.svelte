@@ -18,7 +18,7 @@
       },
       {
         name: "Models & Tech",
-        link: "/tech",
+        link: "/model",
         icon: Database,
       },
       //   {
